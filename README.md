@@ -1,4 +1,7 @@
-This is a https://www.frontendmentor.io challenge. Bellow is the description. It was developed using React.js.
+# Rock, Paper, Scissors!
+
+
+### This is a https://www.frontendmentor.io challenge. Bellow is the description. It was developed using React.js.
 
 ------------------ 
 
