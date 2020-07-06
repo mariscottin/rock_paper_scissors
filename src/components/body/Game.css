@@ -1,0 +1,127 @@
+.game__container {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 90%;
+}
+
+.game-title__container {
+    color: white;
+    text-align: center;
+}
+
+.game-triangle__container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.game-triangle__container img {
+    width: 180px;
+    margin: auto;
+}
+
+.rock-avatar {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.paper-avatar {
+    position: absolute;
+    top: -50px;
+    right: 52%;
+}
+
+.scissors-avatar {
+    position: absolute;
+    top: -50px;
+    left: 52%;
+}
+
+.picked-game__container {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.picked-avatar__container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.picked-avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.picked-avatar h5 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+}
+
+.game-result__container {
+    text-align: center;
+    color: #ffffff;
+}
+
+.game-result__container h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+    font-size: 3rem;
+    margin: 0 0 16px 0;
+}
+
+.play-again-btn {
+    cursor: pointer;
+    background: #fff;
+    border-radius: 8px;
+    color: #444;
+    width: 130px;
+    margin: auto;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+@media(min-width: 768px) {
+   .game__container {
+        padding-top: 20px;
+    } 
+    .game-triangle__container img {
+        width: 220px;
+        margin: auto;
+    }
+    .picked-game__container {
+        width: 70%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 0;
+    }
+    .game-result__container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media(min-width: 991px) {
+    .picked-game__container {
+        width: 50%;
+    }
+}

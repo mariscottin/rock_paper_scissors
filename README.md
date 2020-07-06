@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a https://www.frontendmentor.io challenge. Bellow is the description. It was developed using React.js.
 
-## Available Scripts
+------------------ 
 
-In the project directory, you can run:
 
-### `npm start`
+# Frontend Mentor - Rock, Paper, Scissors
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Welcome! 👋
 
-### `npm test`
+Thanks for checking out this front-end coding challenge.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-### `npm run build`
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## The challenge
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Your challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the design as possible.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-### `npm run eject`
+Your users should be able to:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- View the optimal layout for the game depending on their device's screen size
+- Play Rock, Paper, Scissors against the computer
+- Maintain the state of the score after refreshing the browser _(optional)_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Rules
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If the player wins, they gain 1 point. If the computer wins, the player loses one point.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Paper beats Rock
+- Rock beats Scissors
+- Scissors beats Paper
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Where to find everything
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Your task is to build out the project to the designs inside the `/design` folder. You will find both mobile and desktop versions of the design to work to. Each file is also named depending on which step in the game the design is for.
 
-### Code Splitting
+The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-### Analyzing the Bundle Size
+There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

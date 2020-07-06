@@ -1,0 +1,38 @@
+.score-header__container{
+    color: #ffffff;
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.score-header__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid hsl(217, 16%, 45%);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.score-header__title{
+    font-size: .65rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.score-header__title h1{
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+@media(min-width: 768px){
+    .score-header__container{
+        width: 50%;
+    }
+
+    .score-header__title{
+        font-size: .85rem;
+    }    
+}

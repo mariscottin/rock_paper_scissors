@@ -1,0 +1,34 @@
+.rules-button__container{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rules-btn{
+    color: rgb(202, 202, 202);
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 8px;
+    padding: 10px 40px;
+    letter-spacing: .12rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.rules-btn:hover{
+    background: rgb(202, 202, 202);
+    color: #333;
+}
+
+@media(min-width: 991px){
+    .rules-button__container{
+        left: 90%;
+    }
+}
+
+@media(max-height: 580px){
+    .rules-button__container{
+        bottom: 2%;
+    }
+}

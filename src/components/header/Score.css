@@ -1,0 +1,39 @@
+.score__box{
+    background: #ffffff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    width: 55px;
+    height: 55px;
+}
+
+.score__box h6, .score__box p{
+    margin: 0;
+}
+
+.score__box h6{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: hsl(229, 64%, 46%);
+}
+
+.score__box p{
+    font-size: 38px;
+    font-weight: 700;
+    color: #555;
+}
+
+@media(min-width: 768px){
+    .score__box{
+        width: 65px;
+        height: 65px;
+    }
+    .score__box h6{
+        font-size: 0.8rem;
+    }
+    
+    .score__box p{
+        font-size: 44px;
+    }
+}
