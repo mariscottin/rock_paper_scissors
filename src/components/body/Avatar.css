@@ -7,7 +7,7 @@
 }
 
 .avatar__border-red{
-    background: linear-gradient(0deg, hsl(349, 71%, 52%) 0%, hsl(349, 70%, 56%) 100%);
+    background: linear-gradient(0deg, hsl(349, 72%, 53%) 0%, hsl(349, 70%, 56%) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 6px 0 0 rgb(121, 27, 44);
