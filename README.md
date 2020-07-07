@@ -1,7 +1,9 @@
 # Rock, Paper, Scissors!
 
 
-### This is a https://www.frontendmentor.io challenge. Bellow is the description. It was developed using React.js.
+### This is a https://www.frontendmentor.io challenge. Bellow is the description. I developed it using React.js.
+
+### Try it out and have some fun playing the classic Rock, Paper, Scissors game! --> https://rock-paper-scissors-iota.vercel.app/
 
 ------------------ 
 
